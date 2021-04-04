@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    height: 100vh;
+    background-image: linear-gradient( 109.6deg,  rgba(62,161,219,1) 11.2%, rgba(93,52,236,1) 100.2% );
+}
+
+.pack {
+    position: relative;
+    text-align: center;
+    width: 900px;
+    height: 300px;
+    left: 30%;
+    top: 10%;
+    border: 3px white solid;
+    border-radius: 20px;
+}
+.pack h1 {
+    padding-top: 30px;
+    text-transform: uppercase;
+    color: white;
+}
+.pack input {
+  margin-top: 60px;
+  font-size: 20px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+.pack .btn {
+    background-color: rgb(3, 157, 168);
+    font-size: 15px;
+    padding: 5px;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-color: gray;
+    border-radius: 10px;
+}
+.pack .number {
+   margin-top: 50px;
+   font-size: 20px;
+   color: white;
+}
